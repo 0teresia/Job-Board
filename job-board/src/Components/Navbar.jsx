@@ -13,16 +13,15 @@ function Navbar() {
   const navItems = [
     { path: '/', title: 'Find jobs' },
     { path: '/my-jobs', title: 'My Jobs' },
-    { path: 'salary', title: 'Estimate salary' },
     { path: '/post-job', title: 'Post A Job' },
   ];
 
   return (
     <header className='max-w-screen-2xl container mx-auto xl:px-24 px-10'>
       <nav className='flex justify-between items-center py-6'>
-        <a href='#'>
+        <NavLink to="/" exact={true.toString()}>
           <img src={jobIcon} alt='Job Board' style={{ width: '130px', height: '130px' }} />
-        </a>
+        </NavLink>
         {/* nav items for large devices */}
         <ul className={`hidden md:flex gap-12 ${isMenuOpen ? 'block' : 'hidden'}`}>
           {navItems.map(({ path, title }) => (

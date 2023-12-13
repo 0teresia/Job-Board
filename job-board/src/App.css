@@ -28,8 +28,6 @@ li {
   cursor: pointer;
 }
 
-/* jobs page */
-
 .card {
   margin: 20px;
   border: 2px solid #ededed;
@@ -101,7 +99,7 @@ li {
   height: 20px;
   width: 20px;
   background-color: #eee;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .all {
@@ -113,7 +111,7 @@ li {
 }
 
 .leftsidebar-label-container input:checked ~ .tickmark  {
-  background-color: #5F6F52;
+  background-color: #8d9dfc;
 }
 
 .tickmark :after {
@@ -138,16 +136,4 @@ li {
 .line {
   margin-top: 3rem;
   border-color: #f7f7f7;
-}
-
-
-
-/* create a job page */
-
-.create-job-flex{
-  @apply flex flex-col lg:flex-row items-center justify-between gap-8;
-}
-
-.create-job-input{
-  @apply block w-full flex-1 bg-white py-1.5 pl-3 text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6
 }

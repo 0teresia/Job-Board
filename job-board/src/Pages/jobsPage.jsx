@@ -2,7 +2,13 @@ import React from 'react'
 
 const jobsPage = ({results}) => {
   return (
-    <div>{results}</div>
+    <>
+     <div>
+      <h3 className='text-lg font-semibold mb-2'>{results.length} Jobs </h3>
+    </div>
+      {results}
+    </>
+   
   )
 }
 

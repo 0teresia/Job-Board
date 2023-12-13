@@ -5,7 +5,7 @@ const Banner = ({query, handleInput }) => {
    
     return (
     <div className='max-w-screen-2xl container mx-auto xl:px-24 px-10 md:py-2 py-14'>
-        <h1 className='text-4xl font-bold text-primary mb-3'>Apply now and <span className='text-pink-500'> take a step towards </span>  your future career</h1>
+        <h1 className='text-4xl font-bold text-primary mb-3'>Apply now and <span className='text-blue'> take a step towards </span>  your future career</h1>
     <p className='text-lg mb-8' >
         our platform connects talented individuals with their dream jobs. Start exploring our listings, tailor your applications, and get ready to pave the way for a fulfilling career ahead. Apply now and set yourself on the path to success.
     </p>
