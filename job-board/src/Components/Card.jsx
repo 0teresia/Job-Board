@@ -23,7 +23,7 @@ const Card = ({ data }) => {
 
   return (
    <section className='card'>
-    <Link to={`/job/${_id}`} className='flex gap-4 flex-col sm:flex-row items-start'>
+    <Link to={'/'} className='flex gap-4 flex-col sm:flex-row items-start'>
         <img src={companyLogo} alt='' style={{ width: '100px', height: '100px' }} />
         <div>
             <h4 className='text-primary mb-2'>{companyName}</h4>

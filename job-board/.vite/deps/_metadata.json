@@ -1,0 +1,89 @@
+{
+  "hash": "72fdf206",
+  "browserHash": "1f51c238",
+  "optimized": {
+    "firebase/app": {
+      "src": "../../../job-board/node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "5fd2fbd6",
+      "needsInterop": false
+    },
+    "firebase/auth": {
+      "src": "../../../job-board/node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "1e49c5b9",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../../job-board/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3c79e534",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../job-board/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "fdc8b017",
+      "needsInterop": true
+    },
+    "react-hook-form": {
+      "src": "../../../job-board/node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "6eb8a09d",
+      "needsInterop": false
+    },
+    "react-icons/ci": {
+      "src": "../../../job-board/node_modules/react-icons/ci/index.esm.js",
+      "file": "react-icons_ci.js",
+      "fileHash": "226f95e5",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../../job-board/node_modules/react-icons/fa/index.esm.js",
+      "file": "react-icons_fa.js",
+      "fileHash": "66dd5ff9",
+      "needsInterop": false
+    },
+    "react-icons/fi": {
+      "src": "../../../job-board/node_modules/react-icons/fi/index.esm.js",
+      "file": "react-icons_fi.js",
+      "fileHash": "f564c287",
+      "needsInterop": false
+    },
+    "react-icons/gi": {
+      "src": "../../../job-board/node_modules/react-icons/gi/index.esm.js",
+      "file": "react-icons_gi.js",
+      "fileHash": "bf822988",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../../job-board/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "e64e33a2",
+      "needsInterop": false
+    },
+    "react-select/creatable": {
+      "src": "../../../job-board/node_modules/react-select/creatable/dist/react-select-creatable.esm.js",
+      "file": "react-select_creatable.js",
+      "fileHash": "202cc494",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Y7CLF6UW": {
+      "file": "chunk-Y7CLF6UW.js"
+    },
+    "chunk-SODIMZSA": {
+      "file": "chunk-SODIMZSA.js"
+    },
+    "chunk-ZHL4U2SA": {
+      "file": "chunk-ZHL4U2SA.js"
+    },
+    "chunk-7JXQEBI2": {
+      "file": "chunk-7JXQEBI2.js"
+    },
+    "chunk-LQ2VYIYD": {
+      "file": "chunk-LQ2VYIYD.js"
+    }
+  }
+}
