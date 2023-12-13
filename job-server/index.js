@@ -5,7 +5,13 @@ const port = process.env.PORT || 3000;
 require('dotenv').config();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: '*', 
+    methods: ['GET', 'POST'], 
+    credentials: true 
+  }));
+
+  
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@job-board-project.yexokbu.mongodb.net`;
